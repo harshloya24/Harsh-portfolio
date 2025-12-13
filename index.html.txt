@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harsh Loya | Developer Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">HARSH<span class="dot">.</span>DEV</div>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="hero container hidden">
+        <p class="intro-text">Hi, my name is</p>
+        <h1 class="big-heading">Harsh Loya.</h1>
+        <h2 class="big-heading muted">I build things for the web.</h2>
+        <p class="desc-text">
+            I am Passionate Web Developer skilled in React.js, Node.js, and Express. Seeking to contribute to innovative web applications by leveraging strong coding skills, hands-on project experience, and a solid foundation in full-stack development. <span class="highlight-text">React</span>, <span class="highlight-text">Node</span>, and <span class="highlight-text">Python</span>.
+        </p>
+        <div class="hero-btns">
+            <a href="#" id="contactBtn" class="btn primary-btn">Get In Touch</a>
+            <a href="#projects" class="btn secondary-btn">View Work</a>
+        </div>
+    </section>
+
+    <section id="skills" class="container hidden">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-tag">React.js</div>
+            <div class="skill-tag">JavaScript (ES6+)</div>
+            <div class="skill-tag">HTML5 & CSS3</div>
+            <div class="skill-tag">Node.js</div>
+            <div class="skill-tag">Express.js</div>
+            <div class="skill-tag">Python</div>
+            <div class="skill-tag">SQLite</div>
+            <div class="skill-tag">Bootstrap</div>
+            <div class="skill-tag">Git & GitHub</div>
+        </div>
+    </section>
+
+    <section id="projects" class="container">
+        <h2 class="section-title hidden">Featured Projects</h2>
+        <div class="projects-grid">
+            
+            <div class="project-card hidden delay-1">
+                <div class="card-header">
+                    <h3 class="project-title">Nxt Watch</h3>
+                    <div class="icons">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+                    </div>
+                </div>
+                <p class="project-desc">A YouTube-inspired application where users can access various video categories. Features secure authentication and theme customization.</p>
+                
+                <div class="creds-box">
+                    <span>Test Creds:</span> <code>rahul</code> / <code>rahul@2021</code>
+                </div>
+                
+                <p class="tech-stack">React JS • JWT • REST API</p>
+                
+                <div class="card-links">
+                    <a href="https://harshproject.ccbp.tech" target="_blank" class="ext-link">Live Demo <span class="arrow">↗</span></a>
+                </div>
+            </div>
+
+            <div class="project-card hidden delay-2">
+                <div class="card-header">
+                    <h3 class="project-title">Nxt Trendz</h3>
+                    <div class="icons">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+                    </div>
+                </div>
+                <p class="project-desc">An E-commerce clone similar to Amazon. Users can login, browse products, filter by category/rating, and sort by price.</p>
+                
+                <div class="creds-box">
+                    <span>Test Creds:</span> <code>rahul</code> / <code>rahul@2021</code>
+                </div>
+                
+                <p class="tech-stack">React JS • Filters • Sorting</p>
+                
+                <div class="card-links">
+                    <a href="https://harshtrendz.ccbp.tech" target="_blank" class="ext-link">Live Demo <span class="arrow">↗</span></a>
+                </div>
+            </div>
+
+            <div class="project-card hidden delay-3">
+                <div class="card-header">
+                    <h3 class="project-title">Jobby App</h3>
+                    <div class="icons">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+                    </div>
+                </div>
+                <p class="project-desc">An all-encompassing job search platform. Secured user information with JWT tokens and utilized React Router for navigation.</p>
+                
+                <div class="creds-box">
+                    <span>Test Creds:</span> <code>rahul</code> / <code>rahul@2021</code>
+                </div>
+                
+                <p class="tech-stack">React JS • API • CSS Modules</p>
+                
+                <div class="card-links">
+                    <a href="https://hireUp.ccbp.tech" target="_blank" class="ext-link">Live Demo <span class="arrow">↗</span></a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer id="contact">
+        <p>Designed & Built by Harsh Loya</p>
+    </footer>
+
+    <div id="contact-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>Let's Connect</h2>
+            <div class="contact-links">
+                <a href="tel:+917386016357" class="contact-item">
+                    <span class="icon">📞</span>
+                    <div class="info">
+                        <span class="label">Phone</span>
+                        <span class="value">+91 7386016357</span>
+                    </div>
+                </a>
+                
+                <a href="https://www.linkedin.com/in/harsh-loya-774361330/" target="_blank" class="contact-item">
+                    <span class="icon">🔗</span>
+                    <div class="info">
+                        <span class="label">LinkedIn</span>
+                        <span class="value">Harsh Loya</span>
+                    </div>
+                </a>
+
+                <a href="mailto:harshloya2004@gmail.com" class="contact-item">
+                    <span class="icon">✉️</span>
+                    <div class="info">
+                        <span class="label">Email</span>
+                        <span class="value">harshloya2004@gmail.com</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
